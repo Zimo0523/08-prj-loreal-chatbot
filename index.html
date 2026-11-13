@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -19,12 +19,15 @@
     <div class="page-wrapper">
       <!------- Header / Branding ------->
       <header class="site-header">
-        <h1 class="site-title">Smart Product Advisor</h1>
+        <img src="img/loreal-logo.png" alt="L'Oréal Logo" class="brand-logo" />
+        <h1 class="site-title">Smart Beauty & Product Advisor</h1>
+        <p class="site-subtitle">Discover your perfect beauty routine</p>
       </header>
 
       <!------- Chat Area ------->
       <main>
         <section class="chatbox">
+          <div id="latestQuestion" class="latest-question" hidden></div>
           <div id="chatWindow" class="chat-window">
             <!-- messages will be appended here via JS -->
           </div>
@@ -35,7 +38,7 @@
               id="userInput"
               name="userInput"
               type="text"
-              placeholder="Ask me about products or routines…"
+              placeholder="Ask me about skincare, makeup, or haircare..."
               autocomplete="off"
               required
             />
@@ -49,7 +52,7 @@
 
       <!------- Footer Links ------->
       <footer class="site-footer">
-        <p>&copy; 2025 Company Name. All rights reserved.</p>
+        <p>&copy; 2026 L'Oréal Beauty Advisor. Educational project.</p>
         <nav>
           <!-- These URLs are placeholders -->
           <a href="#">Privacy Policy</a>
