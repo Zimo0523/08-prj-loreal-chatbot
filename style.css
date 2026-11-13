@@ -16,8 +16,8 @@ body {
 }
 
 .page-wrapper {
-  width: 90%;
-  max-width: 900px;
+  width: 94%;
+  max-width: 1100px;
 }
 
 /* Header and branding */
@@ -53,7 +53,7 @@ body {
 }
 
 .chat-window {
-  height: 380px;
+  height: 550px;
   border: 1px solid #ded8d1;
   border-radius: 10px;
   padding: 22px;
